@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Raleway", sans-serif;
+        }
+
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #fffffff6;
+            padding: 10px;
+            margin: 5px 0;
+        }
+
+        input[type="text"] {
+          border-radius:5px;
+          border-color: aliceblue;
+          padding: 3px;
+        }
+        input::placeholder {
+          color: gray;
+          font-style: italic;
+          font-size: 14px;
+        }
+
+         button {
+            padding: 3px;
+            border-radius: 5px;
+            cursor: pointer;
+            border-color: aliceblue;
+            background-color: whitesmoke;
+         }
+
+        .container {
+            max-width: 550px;
+            margin: 0 auto;
+            padding: 30px;
+            display: flex;
+           align-items: center;
+            justify-content: center;
+            height: 70vh;
+               }
+
+        .task-checkbox {
+            margin-right: 10px;
+            border: 1px solid;
+            border-radius: 200px;
+        }
+        .task-text {
+            flex-grow: 1;
+        }
+        .removeBtn {
+            margin-left: 10px;
+            background-color: red;
+            border: 1px solid rgb(129, 0, 0);
+        }
